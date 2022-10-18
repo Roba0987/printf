@@ -14,6 +14,8 @@ int (*check_specifiers(const char *format))(va_list)
 	flag_t specifiers[] = {
 		{"c", print_char},
 		{"s", print_str},
+		{"d", print_int},
+		{"i", print_int},
 		{NULL, NULL}
 	};
 
