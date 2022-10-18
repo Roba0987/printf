@@ -16,7 +16,6 @@ typedef struct flag
 	int (*f)(va_list);
 } flag_t;
 
-
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_char(va_list c);
